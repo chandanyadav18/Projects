@@ -1,0 +1,34 @@
+body{
+    background-color: #ffc600;
+    background: linear-gradient(to right,grey,orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+
+}
+
+.inCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin:  2pc 7px;
+    border-radius: 9px;
+    background-color: beige;
+    width: 70%;
+}
