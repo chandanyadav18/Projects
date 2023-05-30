@@ -1,0 +1,79 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer {
+  transition: opacity 0.15s linear;
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalConatiner .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+  overflow: scroll;
+}
+p {
+  font-family: --bs-font-sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+li {
+  font-family: --bs-font-sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

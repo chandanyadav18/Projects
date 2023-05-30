@@ -1,0 +1,74 @@
+.loginContainer {
+  height: 100vh;
+  /* background-color: purple; */
+  background: linear-gradient(136deg, #220e4d 2%, #6b068e 90.18%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formContainer {
+  background-color: #f1ffff;
+  height: auto;
+  width: 50%;
+  border-radius: 30px;
+}
+/* .cardWrapper {
+  margin: 10px;
+} */
+.descPara {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+}
+.formNav {
+  width: auto;
+  background-color: aqua;
+}
+
+/* css for prac  */
+.cardWrapper {
+  background-color: white;
+  /* height: 550px;
+  width: 550px; */
+  border-radius: 30px;
+}
+.formNav {
+  color: #03c5cc;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ebedee;
+  height: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.signInBtn,
+.signUpBtn {
+  border: none;
+  color: #03c5cc;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ebedee;
+}
+
+.unactive {
+  border: none;
+  color: #222;
+  font-size: medium;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 18px;
+  opacity: 0.3;
+  background-color: #ebedee;
+}
+@media (max-width: 768px) {
+  .loginContainer {
+    flex-direction: column;
+    height: 160vh;
+  }
+  .formContainer {
+    width: 90%;
+  }
+}
